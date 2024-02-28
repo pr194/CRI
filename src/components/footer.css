@@ -1,0 +1,22 @@
+.foot {
+    margin-top: 10px;
+    margin-left: 5vw;
+    margin-bottom: 10px;
+    width: 90vw;
+    height: 15vh;
+    background-color: rgb(211, 47, 47);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+}
+.in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 1000px) {
+    .foot{
+        flex-direction: column;
+    }
+ }

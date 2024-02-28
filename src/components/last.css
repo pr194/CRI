@@ -1,0 +1,48 @@
+.lstmain{
+    width: 100vw;
+}
+.lsttext{
+    width: 100%;
+    font-size: small;
+    text-align: center;
+    font-weight: 600;
+}
+.limg{
+    height: 60vh;
+    text-align: center;
+    margin-top: 15px;
+}
+.lm{
+    height: 90%;
+    width: 70%;
+
+}
+.br{
+    background-color: red;
+    height: 1.3px;
+    width: 96vw;
+    margin: auto;
+}
+.lsttext1{
+    font-size: small;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 13px;
+}
+.lsttext2{
+    font-size: small;
+    text-align: center;
+    font-weight:500;
+    margin-top: 13px;
+}
+@media screen and (max-width: 1000px) {
+   .lsttext{
+    margin-top: 20px;
+    height: auto;
+    
+   }
+   .limg{
+    height: 100%;
+    width: 100%;
+   }
+ }
